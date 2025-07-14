@@ -29,5 +29,26 @@ Regular users have limited access:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-user/event-management-spa.git
-   cd event-management-spa
+   [git clone https://github.com/your-user/event-management-spa.git
+   cd event-management-spa](https://github.com/Militaseeee/event_m3/blob/main/README.md)
+
+   ##  Comenzar
+
+## 1. Install dependencies
+
+```bash
+npm install
+```
+
+## 2. Starting the development server
+
+```bash
+npm run dev
+```
+
+## 🙋‍♂️ Personal INformation
+
+- Name: Camila Acosta Velasquez
+- Clan: Gosling
+- Email: camilitaacosta2001@gmail.com
+- ID: 1001456477 
