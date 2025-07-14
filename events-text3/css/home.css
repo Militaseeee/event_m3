@@ -1,0 +1,79 @@
+/* HERO HEADER */
+.hero-header {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+}
+
+.hero-header h1 {
+  font-size: 2rem;
+  color: #2e2e42;
+  margin-bottom: 1rem;
+}
+
+.hero-header p {
+  color: #444;
+  line-height: 1.6;
+}
+
+/* FEATURE LIST */
+.feature-list ul li {
+  background-color: #fff;
+  border-left: 4px solid #007bff;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  border-radius: 6px;
+  list-style-type: none;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* ABOUT SECTION */
+.about-section {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.about-section h2 {
+  color: #2e2e42;
+  margin-bottom: 1rem;
+}
+
+.about-section p {
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+/* Responsive adjustments for HERO, FEATURE LIST and ABOUT SECTION */
+@media (max-width: 768px) {
+  .hero-header,
+  .about-section {
+    padding: 1.5rem 1rem;
+    border-radius: 10px;
+  }
+
+  .hero-header h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .hero-header p,
+  .about-section p {
+    font-size: 0.95rem;
+    text-align: justify;
+  }
+
+  .feature-list ul li {
+    padding: 10px 12px;
+    font-size: 0.95rem;
+  }
+
+  .about-section h2 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+}
