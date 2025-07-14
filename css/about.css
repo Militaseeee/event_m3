@@ -1,0 +1,149 @@
+.about-events {
+    max-width: 800px;
+    margin: 3rem auto;
+    background: #ffffff;
+    padding: 2.5rem;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2rem;
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+.about-events h1 {
+    font-size: 2.2rem;
+    color: #2e2e42;
+    margin-bottom: 1rem;
+}
+
+.about-events h2 {
+    font-size: 1.4rem;
+    color: #2e2e42;
+    margin-bottom: 0.5rem;
+}
+
+.about-events p {
+    font-size: 1rem;
+    line-height: 1.8;
+    margin-bottom: 0.8rem;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.social-links a {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f0f2f5;
+    padding: 10px 14px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.social-links a:hover {
+    background-color: #e0e0e0;
+    color: #0056b3;
+}
+
+.social-links img {
+    width: 22px;
+    height: 22px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.contact-info p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+    .about-events {
+        padding: 2rem;
+        margin: 2rem 1rem;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+    opacity: 1;
+    transform: translateY(0);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .about-events {
+        padding: 2rem;
+        margin: 2rem 1rem;
+    }
+
+    .about-events h1 {
+        font-size: 1.8rem;
+    }
+
+    .about-events h2 {
+        font-size: 1.3rem;
+    }
+}
+
+/* 📱 Teléfonos (≤480px) */
+@media (max-width: 480px) {
+    .about-events {
+        padding: 1.5rem;
+        margin: 1.5rem 0.8rem;
+        gap: 1.5rem;
+    }
+
+    .about-events h1 {
+        font-size: 1.5rem;
+    }
+
+    .about-events h2 {
+        font-size: 1.1rem;
+    }
+
+    .about-events p,
+    .contact-info p {
+        font-size: 0.95rem;
+    }
+
+    .social-links a {
+        font-size: 0.95rem;
+        padding: 8px 12px;
+    }
+
+    .social-links img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
