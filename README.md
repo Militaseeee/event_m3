@@ -1,35 +1,33 @@
-📚 Event Management SPA
-This is a Single Page Application (SPA) built with HTML, CSS, and Vanilla JavaScript. It allows two types of users to interact with the system: Administrators and Regular Users, each with different permissions.
+# 📅 Event Management SPA
+
+This project is a **Single Page Application (SPA)** for managing events with role-based access using HTML, CSS, and JavaScript (Vanilla JS). It simulates a backend with `json-server`.
+
+## 🔐 Roles and Features
+
+### 👨‍💼 Administrator
+
+An administrator has full control over event management:
+
+- ✅ Add new events
+- 👁️ View all existing events
+- 📝 Edit/update any event
+- 🗑️ Delete events
+- 🔒 Role-based login system
+
+### 🙋‍♂️ User
+
+Regular users have limited access:
+
+- 📌 Can only **view and reserve** available events.
+- 📝 Reservation is saved in the local database.
+- 🔐 Role-based login system
 
 ---
 
-👩‍💼 Administrator Features
-An administrator can:
+## 🚀 How to Start the Project
 
-➕ Add new events.
-👁️ View all registered events.
-📝 Edit existing events.
-❌ Delete events.
-📋 See which users have booked each event.
+1. Clone the repository:
 
-Administrators must log in with valid credentials. Their role must be "admin" in the database.
-
----
-
-🙋 User Features
-A regular user can:
-
-📅 View all available events.
-✅ Make reservations for events.
-📝 Register through the "Register here" link on the login page.
-🔐 After successful registration, users are automatically redirected to the login page.
-
-Users cannot create, edit, or delete events.
-
----
-
-⚙️ Technologies
-HTML5
-CSS3
-JavaScript (Vanilla)
-json-server (for local REST API simulation)
+   ```bash
+   git clone https://github.com/your-user/event-management-spa.git
+   cd event-management-spa
